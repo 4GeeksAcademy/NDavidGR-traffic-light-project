@@ -72,17 +72,15 @@ function celeste(){
 	}
 }
 	return (
-		<>
-		<div className="container d-flex justify-content-center">
+		
+		<div className="container d-flex justify-content-center mt-5">
 			<div className="card text-center d-flex flex-column bg-dark" style={{height:220, width:75}}>
 				<button className={"w-100 h-100 border-black rounded-circle btn "+color1} onClick={encenderRojo}></button>
 				<button className={"w-100 h-100 border-black rounded-circle btn "+color2} onClick={encenderAmarillo}></button>
 				<button className={"w-100 h-100 border-black rounded-circle btn "+color3} onClick={encenderVerde}></button>
 			</div>
 		</div>
-			<br></br>
 		
-		</>
 	);
 
 };
